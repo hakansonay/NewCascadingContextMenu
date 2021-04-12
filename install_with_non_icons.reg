@@ -1,0 +1,86 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File]
+"Subcommands"=""
+"Position"="Top"
+
+;----------------PROG-----------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog]
+"MUIVerb"="Programming"
+"Subcommands"=""
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item1]
+"MUIVerb"="Python"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item1\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\py.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item2]
+"MUIVerb"="Ruby"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item2\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\rb.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item3]
+"MUIVerb"="Golang"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item3\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\go.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item4]
+"MUIVerb"="C"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item4\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\c.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item5]
+"MUIVerb"="C++"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item5\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\cpp.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item6]
+"MUIVerb"="Arduino"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item6\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\ino.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item7]
+"MUIVerb"="PowerShell"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item7\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\ps1.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item8]
+"MUIVerb"="Batch"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item8\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\bat.bat"
+;-------------------------------------;
+
+
+
+
+;-----------------WEB-----------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web]
+"MUIVerb"="Web"
+"Subcommands"=""
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item1]
+"MUIVerb"="HTML"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item1\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\html.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item2]
+"MUIVerb"="XML"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item2\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\xml.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item3]
+"MUIVerb"="CSS"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item3\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\css.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item4]
+"MUIVerb"="JavaScript"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item4\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\js.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item5]
+"MUIVerb"="PHP"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item5\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\php.bat"
+;-------------------------------------;
+

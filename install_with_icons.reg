@@ -1,0 +1,102 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\file.ico"
+"Subcommands"=""
+"Position"="Top"
+
+;----------------PROG-----------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\prog.ico"
+"MUIVerb"="Programming"
+"Subcommands"=""
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item1]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\py.ico"
+"MUIVerb"="Python"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item1\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\py.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item2]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\ruby.ico"
+"MUIVerb"="Ruby"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item2\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\rb.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item3]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\go.ico"
+"MUIVerb"="Golang"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item3\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\go.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item4]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\c.ico"
+"MUIVerb"="C"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item4\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\c.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item5]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\cpp.ico"
+"MUIVerb"="C++"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item5\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\cpp.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item6]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\Arduino.ico"
+"MUIVerb"="Arduino"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item6\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\ino.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item7]
+"Icon"="C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe,0"
+"MUIVerb"="PowerShell"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item7\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\ps1.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item8]
+"Icon"="%SystemRoot%\\System32\\imageres.dll,-68"
+"MUIVerb"="Batch"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\prog\shell\item8\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\bat.bat"
+;-------------------------------------;
+
+
+
+
+;-----------------WEB-----------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\web.ico"
+"MUIVerb"="Web"
+"Subcommands"=""
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item1]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\html.ico"
+"MUIVerb"="HTML"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item1\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\html.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item2]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\xml.ico"
+"MUIVerb"="XML"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item2\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\xml.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item3]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\css.ico"
+"MUIVerb"="CSS"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item3\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\css.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item4]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\js.ico"
+"MUIVerb"="JavaScript"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item4\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\js.bat"
+;-------------------------------------;
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item5]
+"Icon"="C:\\Windows\\NewCascadingContextMenu\\Icons\\php.ico"
+"MUIVerb"="PHP"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\New File\shell\web\shell\item5\command]
+@="C:\\Windows\\NewCascadingContextMenu\\Scripts\\php.bat"
+;-------------------------------------;
+
